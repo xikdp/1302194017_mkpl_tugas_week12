@@ -11,6 +11,14 @@
     <version>4.11</version> <!-- Or whatever JUnit you're using. -->
 	</dependency>
 </dependencies>
+	
+<distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/xikdp/1302194017_mkpl_tugas_week12</url>
+    </repository>
+  </distributionManagement>
   
   <properties>
      <maven.compiler.source>1.8</maven.compiler.source>
